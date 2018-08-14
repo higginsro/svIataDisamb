@@ -1,0 +1,667 @@
+Tack.
+tackar.
+tack så mycket.
+definitivt inte.
+gör inte det.
+jag vill inte det.
+nej.
+inte direkt.
+jag håller inte med.
+nej tack.
+inte intresserad.
+jag tror inte det.
+det stämmer.
+Ja.
+låter bra.
+ja.
+jag har inget emot det.
+jag godkänner.
+gör det.
+självklart.
+visst.
+bekräfta.
+exakt.
+Jag vill ha en ny sökning.
+börja om.
+börja igen.
+sluta.
+Jag vill återställa.
+återställa.
+återgå till menyn.
+omstart.
+börja från början.
+Jag vill ha en återställning.
+avbryt.
+ny sökning.
+Jag vill gå tillbaka till menyn.
+kan vi börja om.
+halloj.
+Hej.
+vad kan du göra?.
+godmorgon.
+godafton.
+Hejsan.
+Tjena.
+goddagens.
+hallå.
+godnatt.
+tjenamårs.
+tjoho.
+hur kan du hjälpa?.
+hejsvejs.
+Tja.
+hej..
+tjaba.
+godkväll.
+hejhej.
+morsning.
+börja.
+hej du.
+goddag.
+tjenare.
+tjohej.
+katter?.
+kattunge.
+Katter.
+visa mig katter.
+kattungar.
+Kan ni ge mig en offert på en flygresa?.
+Knulla.
+Djälar anamma.
+fy fasiken.
+fy skjuttsingen.
+jävla.
+Jävlar!.
+särbarn.
+jávla.
+fy fan.
+för i helvete.
+kuk.
+förbaskad.
+skit samma.
+Dra åt fanders.
+Gå och dö!.
+Vad i helvete.
+Knull.
+Fan ta dig!.
+Var inte så förbannat dum.
+sär.
+vafan.
+mongo.
+Djäla.
+jávlar.
+fitta.
+fy tarao.
+skit.
+va sjutton.
+jávla anamma.
+jádra.
+skitstövel.
+idiot.
+kukhuvud.
+fanken.
+göka.
+Va' fan.
+Faan.
+sjutton också.
+Slampa.
+Piss också.
+mög satan.
+nasse.
+Förbanna.
+Ta dig i röven.
+i helvete.
+din hund!.
+Bög.
+helvete.
+Gå och dö.
+Sätta på.
+jákla.
+din jävel.
+Faen.
+idiotisk.
+Good evening.
+Hello.
+Morning.
+Hey.
+Evening.
+Good morning.
+Hi.
+Halllo.
+Start.
+Allô.
+commencer.
+début.
+Salut.
+Bonsoir.
+sursaut.
+Allô!.
+démarrer.
+Salut!.
+Bonjour.
+bonjour!.
+Coucou.
+Pronto!.
+Salve.
+avviare.
+partire.
+cominciare.
+Salve!.
+avviare!.
+cominciare!.
+Ciao.
+Piacere.
+Pronto.
+Piacere!.
+inizio!.
+diga.
+Ciao !.
+Ehi.
+Ehi!.
+inizio.
+Oiga.
+principiar!.
+iniciar.
+¡Caramba.
+Caramba!.
+¡Caramba!.
+Hola!.
+Aló.
+eh.
+empezar.
+Hola.
+el comienzo.
+el principio.
+Bueno!.
+comienzo.
+Eh!.
+Oiga!.
+poner en marcha!.
+Aló!.
+iniciar!.
+poner en marcha.
+principiar.
+comienzo!.
+empezar!.
+el empiezo.
+vad kan du göra.
+hjälp.
+meny.
+jag behöver hjälp.
+med van från LHR Stockholm.
+med van LHR till Stockholm.
+LHR BOM  13-12-2018 .
+LHR BOM 13/12.
+flyg till london  2018-09-09   2018-10-10.
+flyg till london  09-09-2018   10-10-2018.
+flyg till london 2018-09-09 2018-10-10.
+stockholm till paris.
+göteborg till STO  2augusti - 4 augusti.
+stockholm till berlin 2 augusti.
+Första klass Berlin Dublin imorgon 4/5.
+Flyg till Nice från Stockholm 14 juli - 28 juli 2 personer.
+flyg 23juni 27juni till stockholm från nice.
+jag vill flyga en enkelresa till paris imorgon.
+flyga från London till Paris i morgon.
+jag vill åka från Paris till Stockholm med utresa den 25/4 och tillbaka den 27/4.
+@airport:origin @airport:destination @sys.date:departure_date @sys.date:return_date.
+Jag behöver rekommendationer för en romantisk resa från Los Angeles under min ledig tjänst 18-24 juli.
+Jag behöver en flygbiljett.
+boka emirater flyg.
+boka business class flight.
+flyg dublin från paris 23juni 30juni.
+dec5 och dec15.
+Sök efter flyga för 2 vuxna den 27/4 och hem den 12 maj från Paris till Stockholm.
+flyga emirater denna måndag.
+Flyg till Nice från Stockholm 14 juli - 28 juli.
+Göteborg till Berlin 2 juli - 6 juli.
+@class:travel_class @airport:origin  @airport:destination @sys.date:departure_date.
+boka envägs biljett till Barcelona för imorgon.
+Jag letar efter bäst pricred flygbiljetter till London utan stopp.
+Madrid.
+jag vill flyga imorgon från Paris till London och komma tillbaka på nästa tisdag.
+Gå till Bangalore via emirater från Mumbai den här söndagen.
+3 personer vill resa till Madrid idag.
+Flyg till Nice from Stockholm 14 juli - 28 juli 2 personer.
+berlin paris imorgon enkel.
+jag vill flyga från STO, Sverige till HEM finland.
+ Sök efter flyga för 2 vuxna den  04-05-18  och hem den  06-05-2018  från Paris till Stockholm.
+flyga till BER från CDG den 27/05 och kom tillbaka 29/05.
+Jag vill åka till Palma de Mallorca 23 juli och hem 30 juli.
+hitta mig flyg från Göteborg till Köpenhamn
+   12/12 returresa.
+jag vill utresa 24/4 och hem 06-05-2018 från Paris till Stockholm för 2 vuxna.
+Jag skulle vilja flyga från Los Angeles till New York.
+Jag vill ha ett non-stopflyg från New York till Madrid den 28 oktober och jag föredrar American Airlines.
+NCE till LHR.
+Jag letar efter några flygningar från Nice till madrid den 31 januari till 2 februari.
+flyga till tyskland.
+flyga till USA.
+Söka efter flyga för 2 vuxna den  04-07-18  och hem den  08-08-2018  från Paris till Stockholm.
+@ticket-type:ticket-type  från @airport:origin  till @airport:destination.
+jag vill åka en enkelresa från Berlin till Paris den 23:e April.
+hitta mig flyg från Göteborg till Köpenhamn
+  12/12 enkelresa.
+ekonomin kommer tillbaka den 15 augusti.
+Jag vill flyga från london till paris nästa lördag.
+hitta flyg till 2 vuxna från 7 februari till 10 februari från New York till Bangalore.
+boka non stop flyg bara.
+hur kan jag få en flygbiljett.
+sökflyg.
+finns det fortfarande några non-stopflyg till Colorado för jul.
+sep5.
+Jag vill flyga från Wien till Amsterdam den 20.12 till 22.12.
+leta efter flygbiljetter till Berlin.
+5 september och återvänder den 15 september.
+flyg dublin till paris 23 juli - 28 juli.
+paris berlin 23juni - 30juni.
+berlin new york 23juni 30juni.
+Göteborg till Berlin 4 juli hem 7 juli.
+Jag vill flyga till paris imorgon och retur fredag. Vi är 2 vuxna.
+jag vill flyga till Memphis, USA.
+new york.
+ Sök efter flyga för 2 vuxna den  04-05-18  och hem den  06-05-2018  från Paris till Stockholm.
+27/4.
+enkelresa imorgon.
+från bangalore.
+Jag vill flyga från Paris till London och lämna på 2018-04-12 och återvända 2018-04-15.
+hitta mig flygningar för nästa vecka från London till Paris.
+hitta mig den bästa biljetten till London i ekonomiklass.
+finns det ett flyg mellan New Delhi och Bombay?.
+jag vill åka på semester.
+jag vill flyga.
+Jag vill söka flyg från London till Barcelona imorgon i intervallet 250 Euro för 1 vuxen och 1 barn..
+Flygsökning för 5 vuxna och 1 barn.
+flyga från finland.
+@sys.number-integer:adult * @airport:origin  @airport:destination @sys.date:departure_date @sys.date:return_date.
+jag vill flyga till nice från stockholm 12juli 29juli.
+Hej hur mycket kostar biljett för en vuxen och 3 barn ålder 2 6 8 från StockholmArlanda till zurich den 12/7 18/7 tillbaka.
+06.06.2018 - 07.08.2018.
+jag vill resa från Oslo till Stockholm den 25/6 och hem den 27/6.
+Jag vill flyga till Paris från London kvar på torsdag och återvända fredag.
+@sys.date:departure_date - @sys.date:return_date.
+Jag vill flyga från Paris till Berlin och lämna i morgon och återvända på fredag.
+Vi är 4 personer som reser denna söndag till Rom.
+på fredag.
+få mig billigaste flyg till London för 03 oktober.
+boka ett flyg till dubai av emirater.
+flyg för 1 barn.
+jag vill flyga till tyskland.
+@sys.date:departure_date **-** @sys.date:return_date.
+Jag vill flyga från Paris till London och lämna på torsdag och återvända fredag.
+jag vill flyga london till paris imorgon.
+okt5 och okt15.
+hitta flyg till dxb den 7 maj återvända den 11 maj.
+boka endast återbetalningsbara flyg.
+Jag undrar hur mycket kostar flygresa till Sofia i 9 maj till 13 maj derikt !!.
+Jag ska flyga till Amsterdam ensam boka ett flyg.
+4 av oss gillar att åka till Rom genom flygning.
+
+ kan jag boka emirater från sydney till Nice för mig själv.
+Flyg till London 1 augusti.
+jag vill flyga från finland till tyskland.
+jag vill resa en enkelresa till Paris från Stockholm den 25/4.
+jag vill söka en resa med utresa från Berlin till Stockholm den 3:e maj med hemresa den 5 maj.
+Hej, jag skulle vilja resa från Berlin till Paris imorgon med hemresa på fredag.
+jag vill åka en enkelresa från Berlin till Paris den 25/4.
+jag vill resa från Berlin till Paris 25/4 en enkelresa.
+kan du hitta mig flyg på 2018-3-29.
+hur man bokar ett flyg för grupper.
+flyg till Barcelona.
+kan du boka en biljett för 2 av oss.
+leta efter flyg.
+Jag vill flyga imorgon från Paris till London och komma tillbaka på tisdag.
+gå runt Rom.
+boka flyg för 2 vuxna och 1 barn.
+hitta mig flygalternativ för 2 vuxna och 3 barn från STO till NYC den 12 juli till den 28juli.
+hej hag vill flyga till USA Memphis den 9 juli ock komma hem igen den 27 juli. Vi är 2 vuxna som ska resa..
+från London till Paris.
+Jag skulle vilja åka den 17/5.
+Jag vill söka flyg för 2 vuxna och 3 barn från London till Paris lämnar imorgon och återvänder fredag.
+ @airport:origin  @airport:destination @sys.date:departure_date @sys.date:return_date.
+jag vill åka en enkelresa från Berlin till Paris den 3/1.
+hitta ett flyg från Dublin till Köpenhamn den 16 juli tillbaka 23 juli för 2 personer.
+jag vill ut och resa en returresa från Stockholm till Paris. Vi önskar åka den 6/5 och hem den 7/5..
+Jag vill boka ett flyg från London till New York den tjugo tredje april, som kommer tillbaka den tjugo tredje mars.
+Jag behöver flyga från San Francisco till Houston den 18-24 oktober.
+flyg från bangalore till bkk för 3 vuxna.
+hitta ett flyg från Barcelona till Madrid för mindre än 200 euro.
+ Försöker leta billigaste pris Arlanda- Las Palmas, 15/2-19 till 30/3-19.
+ flyga @class.class för @sys.number-integer:adult vuxna @sys.date:departure_date och hem @sys.date:return_date från @airport:origin till @airport:destination.
+ flyga för @sys.number-integer:adult vuxna @sys.date:departure_date och hem @sys.date:return_date från @airport:origin till @airport:destination.
+@ticket-type:ticket-type till @airport:destination.
+jag will flyga.
+boka flyg till 2 vuxna från 7 februari till 10 februari från New York till Madrid.
+billigaste flyg från MIA till CDG den 5 september och återvänder sept 15 för 3 vuxna.
+Jag vill resa.
+okt5 och retur på okt15.
+få mig den oupphörliga flygningen till Amsterdam för imorgon.
+hej jag skulle vilja boka ett flyg från SF till Paris som går på måndag och tillbaka på fredag.
+boka envägs biljett till Barcelona från 1 januari till 10 jan.
+imorgon en enkelresa.
+Jag vill gå någonstans. jag vill utforska Nice..
+Jag skulle vilja lämna bombay..
+hitta populära onewayflyg från Mumbai under 120.
+flyg berlin från stockholm.
+Jag vill flyga från berlin till madrid och lämna i morgon och komma tillbaka fredag.
+2019-04-05.
+flygsökning för 3 barn.
+Sök flyg till New York från Bangalore under 500 USD.
+2, 4.
+till madrid.
+kan du få mig en flygbiljett.
+airport:destination.
+Jag vill åka till Bangalore med flyg.
+den 27/6 en enkelresa.
+22-05-2018 - 25-05-2018.
+kan 2 personer besöka Rom.
+Jag skulle vilja flyga till San Diego nästa helg.
+hitta en flygbiljett för mig.
+kan du hitta mig flyg på 2018-03-29.
+billigaste flyg från MIA till CDG i september.
+jag vill ut resa 24/4 och hem 06-05-2018 från Paris till Stockholm för 2 vuxna.
+boka mig ett flyg från JFK till LAX imorgon i ekonomi.
+boka ett flyg för 2.
+billigaste flyg till Paris i morgon för 2.
+flyg från morgon till söndag.
+2019-02-03.
+Behöver resa återvända i 10/8 och kom tillbaka i 5/9.
+Jag vill åka den 27/4.
+20 juni till 22 juni.
+flyga från stockholm till frankfurt enkelresa för 2 personer åka imorgon.
+jag vill resa  24-05-18  och hem  06-05-2018  från Paris till Stockholm.
+jag vill flyga til paris från berlin den 27/5 och retur 28/5.
+till Paris den 25:e juni och hem den 27:e juni.
+billigaste flyg från MIA till CDG den 5 september.
+Jag måste boka ett flyg för morgondagens resa.
+sept 5.
+Göteborg till Berlin 2 juli hem 6 juli.
+jag vill flyga till paris den 16 juli och hem den 19 juli.
+Jag vill flyga ekonomi klass till Paris från London kvar på torsdag och återvända fredag.
+Jag vill flyga till Paris från London kvar på torsdag och återvända 2019-05-04.
+Jag vill flyga Arlanda till Las Palmas.
+@airport:origin @airport:destination @sys.date:departure_date @ticket-type:ticket-type.
+@airport:origin  @airport:destination @sys.date:departure_date @sys.date:return_date.
+Jag vill flyga från Paris till London och lämna 2018-04-12 och flyga tillbaka 2018-04-15.
+Flyg fr,Arl. till Malaga,2pers.turistkl.25 maj.Enkel resa,Pris?.
+Jag vill flyga till Oslo nästa lördag.
+visa mig flyg till London.
+Få mig flyg till Amsterdam idag under 50 USD.
+bok ekonomiklass biljett till Barcelona.
+Jag behöver din hjälp med flygbokning.
+sök endast efter återbetalningsbara flygningar.
+Arlanda.
+5 september och 15 september.
+boka ett flyg till New York i morgon.
+vänligen boka mig BKK till RGN den 26 juli tillbaka 28 juli.
+leta efter en flygbiljett.
+Jag skulle vilja göra en flygbokning för en resa från London till New York.
+billigaste flyg från MIA till CDG den 5 september och tillbaka den 15 september.
+dec25.
+idag till Rom av ir från Madrid 4 personer.
+kan jag resa imorgon?.
+boka ett flyg.
+köp mig ett flyg från NYC till Bangkok utan layover.
+hitta flygbiljett.
+emirater till Rom.
+boka flygresa.
+Frankfurt.
+boka flyg från Moskva till Paris för mindre än 200 euro inte mer än 1 stopp.
+JFK LAX morgonmorgon eco.
+boka ett flyg för nästa månad.
+flyg för 2 av mina vänner till bangkok denna fredag.
+Jag försöker köpa biljetter från Bangalore till Storbritannien Jag vill hitta den billigaste flygningen.
+flyg från blr till bkk den 12/12/17.
+boka första klass biljetten till Barcelona för imorgon.
+Jag behöver 2 barn biljetter för idag till Amsterdam.
+billigaste flyg från MIA till CDG på dec25 och återkommer på dec31.
+kan du boka mig ett flyg från LAX till JFK från 12: e till 15: e ekonomin tack.
+Jag behöver 2 biljetter till Emirater till Moskva.
+flyg till Bangalore under 200 USD.
+boka flyg från härifrån till London.
+boka envägs biljett till Barcelona.
+hitta flyg.
+åtta.
+tre.
+1.
+fem.
+nio.
+sex.
+ett.
+fler.
+1 passagerare.
+nej jag vill ta med en annan person.
+vi är 5 vuxna.
+vi är 3 personer.
+2 vuxna och 1 barn.
+ändra.
+vi är ett par.
+1 vuxna och 1 barn.
+byta.
+3 vuxna.
+vi är 2 vuxna och 2 barn.
+Inte för 5 passagerare.
+nej inkludera fler passagerare.
+
+ fler passagerare.
+Sju.
+2 barn.
+Vi är 2 vuxna, och 4 barn 1, 7,8 och 9 år gamla.
+vi är tre personer.
+fyra.
+Nej, jag vill ta med mina barn.
+2.
+2 vuxna istället för 3.
+flera.
+två.
+mer.
+1 2 3 4 7 9.
+3, 4, 6, 5, 7, 8,  och 2.
+1, 3 och 2.
+2 och 5.
+barn.
+1 3 2 och 4.
+De är 7år och 9 år.
+5 6 7 4 3 2 9 11.
+1 9 5 8 6 och 3.
+2, 3, 4, 5, och 6.
+1, 2, 3, 4, 4 och 9.
+1, 2,  3,  4, 5, 6.
+6, 7, 9.
+exakt.
+3, 5, 7 och 9.
+ja 3 barn.
+1 3 4.
+2 3 4 5 6 7 11 12 10.
+1 2 3 4 5 6 7 och 8.
+ja.
+bekräfta.
+5, 6, 8, 7, 2, 1, 2, 3, och 1.
+det stämmer.
+jag.
+spädbarn.
+3, 4.
+De är 7,8 och 10.
+visst.
+jag har inget emot det.
+1 2.
+antal personer.
+gör det.
+De är 7 och 9.
+Hon är 5år.
+1, 2,  3,  4, 5, och 6.
+2, 3, 4, 5, 6.
+1 3 och 2.
+låter bra.
+ja tack.
+han är bara 2 år.
+självklart.
+jag godkänner.
+2 3 4 5 6.
+1, 2, 2, 5, 6, 8, 4, 1.
+1 1 2 4 2 3 och 5.
+5, 6, 8, 7, 2, 1, 2, och 3.
+2, 3, 4, 5, 6,.
+5, 6, 8, 7, 2, 1, 2, 3, 1.
+3 1 2 5 och 6.
+2, 3, 4, och 5.
+3, 4, 6, 5, 7, 8, 2.
+2 år istället för 4 år gammal.
+1 2 3 4.
+Han är 4 år gammal.
+1 ,2, 3, 4.
+1, 2 och 5.
+4 5 6 7 8 9 3.
+5.
+nej tack.
+inte intresserad.
+Nej.
+gör inte det.
+Näe.
+jag tror inte det.
+jag vill inte det.
+nej.
+Nopp.
+inte direkt.
+definitivt inte.
+Näpp.
+jag håller inte med.
+15 juli.
+mandag och hem nästa torsdag.
+31.
+@sys.date:departure_date * @sys.date:return_date.
+34:e april.
+22maj.
+ imorgon fredag.
+10 juli.
+definitivt inte.
+jag vill inte det.
+gör inte det.
+ändra.
+inte intresserad.
+nej tack.
+jag håller inte med.
+inte direkt.
+jag tror inte det.
+nej.
+Avresedatum.
+avgångsdatum.
+ändra utresedatum till 02/09/2018.
+jag vill hellre åka på måndag istället för på söndag.
+utresedatum.
+avgångsdatum till 22/04/2018.
+bestämmelseort.
+jag vill ändra att åka till Oslo istället.
+destination.
+bestämmelse.
+adressland.
+jag vill ändra utresan till berlin istället.
+jag vill åka till Paris istället för till Frankfurt.
+flyga till paris istället.
+ändra destination.
+ändamål.
+Jag vill åka från Stockholm istället för från Oslo.
+hemstad.
+jag vill åka från Stockholm istället.
+ursprung.
+använd en annan hemstad.
+från oslo istället.
+ändra ursprung.
+hem.
+returdatum till 03-11-2018.
+ändra returdatum.
+jag önskar att du ändrar hemresan till onsdag nästa vecka.
+Återlämningsdatum till 02/02.
+Ändra retursdatum till 27-05-2018.
+växla.
+Fredag.
+jag vill istället åka hem på söndag.
+ändra datum till 27/04/2018.
+hemresedatum.
+byta datum från 15 mars till 16 maj.
+ändra dagen från onsdag till nästa lördag.
+ändra hemresedatum.
+till företag.
+klass till företag.
+klass ekonomi.
+klass från premium ekonomi till först.
+Jag vill hellre ekonomi.
+klass.
+ingenting.
+inte direkt.
+inget annat.
+gör inte det.
+nej tack.
+jag vill inte det.
+inget.
+jag håller inte med.
+definitivt inte.
+jag tror inte det.
+nej.
+inte intresserad.
+låter bra.
+det stämmer.
+jag har inget emot det.
+självklart.
+bekräfta.
+ja.
+jag godkänner.
+visst.
+exakt.
+gör det.
+enkelresa.
+Enkel.
+london.
+Köpenhamn.
+LON.
+new york.
+NYC.
+LAX.
+PAR.
+LHR.
+LGW.
+Det är en returresa.
+12 maj.
+tur-och retur.
+i morgon.
+returresa.
+tur och retur.
+2018-03-04.
+ i dag.
+tillbaka 5 april.
+retur.
+ 27:e.
+Jag skulle vilja återvända efter en vecka.
+2017/08/18.
+tvåvägsresa.
+return.
+jag godkänner.
+Jajamän.
+Jajemän.
+söka.
+inget.
+självklart.
+inget annat.
+ingenting.
+ja.
+låter bra.
+bekräfta.
+jag har inget emot det.
+gör det.
+Japp.
+Allt är ok.
+Jajemänsan.
+Ok.
+Korrekt!.
+det stämmer.
+inga.
+visst.
+Stämmer!.
+exakt.
+hitta mig en flyg.
+flyg.
+flyga.
+flight.
+jag vill flyga.
+1 | 2.
+@sys.any:latitude ** @sys.any:longitude.

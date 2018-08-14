@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c36d5d74-9eb6-4d7d-8447-b5de93f7afde" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/SvIataDisambiguation.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DF_training_utt_raw_sentences.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Data/SwedishIataIntersection.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Data/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Data/intents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Data/preProcessDfData.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Data/test_corpus.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Data/train_corpus.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SvIataDisambiguation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Transform/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Transform/makeFeatures.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/FullUsage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/InitialTagger/InitialTagger.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/InitialTagger/InitialTagger4En.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/InitialTagger/InitialTagger4Vn.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/InitialTagger/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/License.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Ancient_Greek-PROIEL/grc_proiel-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Ancient_Greek-PROIEL/grc_proiel-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Ancient_Greek/grc-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Ancient_Greek/grc-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Arabic/ar-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Arabic/ar-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Basque/eu-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Basque/eu-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Belarusian/be-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Belarusian/be-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Bulgarian/BTB-biblio.bib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Bulgarian/bg-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Bulgarian/bg-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Catalan/ca-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Catalan/ca-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Chinese/zh-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Chinese/zh-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Coptic/cop-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Coptic/cop-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Croatian/hr-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Croatian/hr-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Czech-CAC/cs_cac-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Czech-CAC/cs_cac-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Czech-CLTT/cs_cltt-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Czech-CLTT/cs_cltt-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Czech/cs-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Czech/cs-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Danish/da-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Danish/da-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Dutch-LassySmall/nl_lassysmall-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Dutch-LassySmall/nl_lassysmall-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Dutch/nl-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Dutch/nl-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_English-LinES/en_lines-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_English-LinES/en_lines-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_English-ParTUT/en_partut-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_English-ParTUT/en_partut-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_English/en-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_English/en-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Estonian/et-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Estonian/et-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Finnish-FTB/COPYING" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Finnish-FTB/COPYING.LESSER" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Finnish-FTB/fi_ftb-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Finnish-FTB/fi_ftb-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Finnish/fi-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Finnish/fi-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_French-ParTUT/fr_partut-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_French-ParTUT/fr_partut-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_French-Sequoia/fr_sequoia-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_French-Sequoia/fr_sequoia-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_French/fr-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_French/fr-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Galician-TreeGal/gl_treegal-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Galician-TreeGal/gl_treegal-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Galician/gl-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Galician/gl-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_German/de-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_German/de-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Gothic/got-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Gothic/got-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Greek/el-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Greek/el-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Hebrew/he-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Hebrew/he-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Hindi/hi-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Hindi/hi-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Hungarian/hu-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Hungarian/hu-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Indonesian/id-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Indonesian/id-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Irish/ga-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Irish/ga-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Italian-ParTUT/it_partut-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Italian-ParTUT/it_partut-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Italian/it-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Italian/it-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Japanese/ja-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Japanese/ja-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Korean/ko-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Korean/ko-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latin-ITTB/la_ittb-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latin-ITTB/la_ittb-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latin-PROIEL/la_proiel-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latin-PROIEL/la_proiel-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latin/la-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latin/la-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latvian/lv-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Latvian/lv-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Lithuanian/lt-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Lithuanian/lt-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Norwegian-Bokmaal/no_bokmaal-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Norwegian-Bokmaal/no_bokmaal-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Norwegian-Nynorsk/no_nynorsk-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Norwegian-Nynorsk/no_nynorsk-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Old_Church_Slavonic/cu-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Old_Church_Slavonic/cu-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Persian/fa-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Persian/fa-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Polish/pl-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Polish/pl-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Portuguese-BR/pt_br-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Portuguese-BR/pt_br-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Portuguese/pt-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Portuguese/pt-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Romanian/ro-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Romanian/ro-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Russian-SynTagRus/ru_syntagrus-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Russian-SynTagRus/ru_syntagrus-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Russian/ru-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Russian/ru-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Slovak/sk-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Slovak/sk-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Slovenian-SST/sl_sst-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Slovenian-SST/sl_sst-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Slovenian/sl-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Slovenian/sl-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Spanish-AnCora/es_ancora-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Spanish-AnCora/es_ancora-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Spanish/es-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Spanish/es-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Swedish-LinES/sv_lines-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Swedish-LinES/sv_lines-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Swedish/sv-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Swedish/sv-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Tamil/ta-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Tamil/ta-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Turkish/tr-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Turkish/tr-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Urdu/ur-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Urdu/ur-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Vietnamese/vi-upos.DICT" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UD_Vietnamese/vi-upos.RDR" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Models/UniPOS/UDv1.3_results.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/SCRDRlearner/Node.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/SCRDRlearner/Object.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/SCRDRlearner/SCRDRTree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/SCRDRlearner/SCRDRTreeLearner.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/SCRDRlearner/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Utility/Config.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Utility/Eval.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Utility/LexiconCreator.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Utility/Utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/Utility/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/DF_training_utt_raw_sentences.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/DF_training_utt_raw_sentences.txt.TAGGED" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/GermanRawTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/GermanRawTest.TAGGED" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/Swedish_test.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/Swedish_test.txt.TAGGED" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/en/goldTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/en/goldTrain" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/en/rawTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/goldTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/goldTrain" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/initTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/initTrain" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/rawTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/sw1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/sw1.TAGGED" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/vn/goldTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/vn/goldTrain" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/data/vn/rawTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/ExtRDRPOSTagger.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/RDRPOSTagger.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/RDRPOSTagger4En.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/RDRPOSTagger4Vn.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/findCandidates.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scratch.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/three_letter_word_data_from_df.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SvIataDisambiguation$SvIataDisambiguation.coverage" NAME="SvIataDisambiguation Coverage Results" MODIFIED="1534154694685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="SvIataDisambiguation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SvIataDisambiguation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findCandidates.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/findCandidates.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="132" column="39" lean-forward="true" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+              <folding>
+                <element signature="e#16#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intents.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/intents.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="three_letter_word_data_from_df.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/three_letter_word_data_from_df.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+              <folding>
+                <element signature="e#87#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RDRPOSTagger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/RDRPOSTagger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeFeatures.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Transform/makeFeatures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scratch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3546">
+              <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+              <folding>
+                <element signature="e#87#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preProcessDfData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/preProcessDfData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_corpus.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/test_corpus.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17892">
+              <caret line="994" column="13" lean-forward="false" selection-start-line="994" selection-start-column="13" selection-end-line="994" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LOC</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SvIataDisambiguation.py" />
+        <option value="$PROJECT_DIR$/Data/load_data" />
+        <option value="$PROJECT_DIR$/Data/load_data.py" />
+        <option value="$PROJECT_DIR$/Data/asdfg.py" />
+        <option value="$PROJECT_DIR$/Data/load.py" />
+        <option value="$PROJECT_DIR$/scratch.py" />
+        <option value="$PROJECT_DIR$/Transform/transform.py" />
+        <option value="$PROJECT_DIR$/Transform/makeFeatures.py" />
+        <option value="$PROJECT_DIR$/Data/preProcessDfData.py" />
+        <option value="$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/RDRPOSTagger.py" />
+        <option value="$PROJECT_DIR$/three_letter_word_data_from_df.py" />
+        <option value="$PROJECT_DIR$/findCandidates.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1348" />
+    <option name="y" value="-1192" />
+    <option name="width" value="1932" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SvIataDisambiguation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvIataDisambiguation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SvIataDisambiguation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvIataDisambiguation" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SvIataDisambiguation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvIataDisambiguation" type="462c0819:PsiDirectoryNode" />
+              <item name="Transform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SvIataDisambiguation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvIataDisambiguation" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SvIataDisambiguation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvIataDisambiguation" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="RDRPOSTagger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SvIataDisambiguation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvIataDisambiguation" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="RDRPOSTagger" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SvIataDisambiguation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvIataDisambiguation" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="RDRPOSTagger" type="462c0819:PsiDirectoryNode" />
+              <item name="pSCRDRtagger" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SvIataDisambiguation" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SvIataDisambiguation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SvIataDisambiguation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c36d5d74-9eb6-4d7d-8447-b5de93f7afde" name="Default" comment="" />
+      <created>1534154372095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534154372095</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1166" y="-1322" width="2118" height="1281" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52079564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23359452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SvIataDisambiguation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/three_letter_word_data_from_df.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding>
+            <element signature="e#87#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/intents.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/RDRPOSTagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transform/makeFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3546">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#87#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/preProcessDfData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/test_corpus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17892">
+          <caret line="994" column="13" lean-forward="false" selection-start-line="994" selection-start-column="13" selection-end-line="994" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findCandidates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SvIataDisambiguation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transform/makeFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3546">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#87#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/preProcessDfData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/test_corpus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17892">
+          <caret line="994" column="13" lean-forward="false" selection-start-line="994" selection-start-column="13" selection-end-line="994" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/three_letter_word_data_from_df.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="e#87#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/load_data" />
+    <entry file="file://$PROJECT_DIR$/Data/preProcessDfData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/test_corpus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17892">
+          <caret line="994" column="13" lean-forward="false" selection-start-line="994" selection-start-column="13" selection-end-line="994" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3546">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#87#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transform/makeFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/preProcessDfData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/entities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/three_letter_word_data_from_df.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding>
+            <element signature="e#87#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/intents.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SvIataDisambiguation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/RDRPOSTagger/pSCRDRtagger/RDRPOSTagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findCandidates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="132" column="39" lean-forward="true" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
