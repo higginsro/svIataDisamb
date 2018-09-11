@@ -33,8 +33,10 @@ franonlyback = 'ber från par'
 
 one_prep_words = [tillonly,tillonlyback, franonly, franonlyback]
 
-tokenise = lambda query: query.strip('.').split()
-certains = lambda tokens: [t for t in tokens if t not in intersection and len(t)==3]
+tokenise = lambda query: [re.sub(r'[.?!;:]','',t) for t in query.lower().split()]
+certains = lambda tokens: [(t,n) for n,t in enumerate(tokens) if t in iataLessSv and len(t) == 3]
+certainNots = lambda tokens: [(t,n) for n,t in enumerate(tokens) if t in svLessIata and len(t) == 3]
+
 def probable_airports(query,inIntersection):
     '''
     returns two lists one of probable airports and their indices,
@@ -44,9 +46,14 @@ def probable_airports(query,inIntersection):
     :return:
     '''
     tokens = tokenise(query)
-    probable_airports = []
+    print "prior to check if in iata less sv"
+    probable_airports = certains(tokens)
+    # probable_airports = []
     possible_airports = []
-    probable_non_airports = []
+    print "prior to check if in sv less iata"
+    probable_non_airports = certainNots(tokens)
+    # probable_non_airports = []
+    print "just before cheking token in intersection"
     for token,n in inIntersection:
         if len(token) == 3:
             scores = [0.0]
@@ -146,3 +153,7 @@ def run(query):
     else:
         return{'probably_airports':probable,
                'probably_not_airports':non_airports}
+
+
+qq = u"Min man Per och jag ska fira vår bröllpsdag och vill flyga till BCN över helgen med våra barn."
+rr =probable_airports(qq,intersectionElements(qq,intersection))

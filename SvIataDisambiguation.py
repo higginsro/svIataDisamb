@@ -17,7 +17,9 @@ def run_disambiguation():
     		result = disambiguate(phrase)
 		logger.log("INFO", "Swedish Three Letter Disambiguation", "Controller", "run_disambiguation", "input message : {}, output: {}".format(phrase.encode("utf-8"), result))
    		return jsonify(result = result, status = 200)
-	except exception as err:
+	except Exception as err:
+		print err.message, err.args
+		# logger.log("ERROR","Swedish  3l disamb","Controller", "run_disambiguation", err)
 		return jsonify(result = {"probably_airports" : [], "probably_not_airports" : []}, status = 500)
 	
 
