@@ -15,9 +15,17 @@ ww = 'vill flyga från ber till min'
 zamps = [ss,tt,qq,ww]
 dir_path=os.path.dirname(os.path.abspath(__file__))
 
+# Intersection of 3 letter swedish words and Iata codes
 with io.open(os.path.join(dir_path, 'Data', 'SwedishIataIntersection.txt'), mode='r') as f:
     intersection = f.read().split()
 
+# Set of 3-letter Swedish words less Iata codes
+with io.open(os.path.join(dir_path, 'Data', 'SwedishLessIata.txt'), mode='r') as g:
+    svLessIata = g.read().split()
+
+# Set of Iata codes less Swedish words
+with io.open(os.path.join(dir_path, 'Data', 'IataLessSwedish.txt'), mode='r') as h:
+    iataLessSv = h.read().split()
 tillonly = 'till ber par'
 tillonlyback = 'ber till par'
 franonly = 'från ber par'
@@ -26,7 +34,7 @@ franonlyback = 'ber från par'
 one_prep_words = [tillonly,tillonlyback, franonly, franonlyback]
 
 tokenise = lambda query: query.strip('.').split()
-
+certains = lambda tokens: [t for t in tokens if t not in intersection and len(t)==3]
 def probable_airports(query,inIntersection):
     '''
     returns two lists one of probable airports and their indices,
